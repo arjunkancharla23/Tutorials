@@ -1,21 +1,15 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Basic Form</title>
-        <!-- Internal Stylesheet  -->
-        <style>
-            body{
-                background-color: darkblue;
-            }
-        </style>
 
         <!-- External Stylesheet -->
-        <link rel="stylesheet" href="C:/My Stuff/Study/Tutorials/dev_env/Tutorials/CSS3/styles.css" />
+        <link rel="stylesheet" href="C:/My Stuff/Study/Tutorials/dev_env/Tutorials/CSS3/Class2-styles.css" />
     </head>
 
     <!-- Inline/attribute stylesheet   -->
-    <body style="background-color: darkblue;">
+    <body>
         <article>
             <header>
                 <h1>This is a Basic Form!</h1>
@@ -55,8 +49,15 @@
                     <br />
 
                     <button type="submit" id="submit">Submit</button>
-                    <button type="reset" id="reset" style="background-color: red;">Reset</button>
+                    <button type="reset" id="reset">Reset</button>
 
+                </form>
+
+                <form name="secondForm">
+                    <div>
+                        <label for="firstn">Name:</label>
+                        <input type="text" id="firstn" />
+                    </div>
                 </form>
             </section>
             <footer></footer>
