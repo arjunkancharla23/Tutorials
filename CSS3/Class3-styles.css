@@ -1,0 +1,38 @@
+form[name="newLicenseForm"]{
+    border: 2px solid #000;
+    display: inline-block;
+}
+
+form[name="secondForm"]{
+    border: 2px dotted #00ff00;
+}
+
+label{
+    display: block;
+}
+
+/* '#' captures the ID of the elements */
+#reset{
+    color: #ff0000;
+    background-color: #ffdd3e;
+}
+
+button[type="submit"]{
+    color: #fd7e50;
+    background-color: #3defdd;
+}
+
+/*
+#firstName, #lastName{
+    background: #00ff00;
+    border: 1px solid #ff0000;
+}
+
+#lastName{
+    border-radius: 5px;
+}*/
+
+/* '.' captures the class of the element/tag */
+.container{
+    background: #0000ff;
+}
