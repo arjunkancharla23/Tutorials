@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Basic Form</title>
+
+        <!-- External Stylesheet -->
+        <link rel="stylesheet" href="C:/My Stuff/Study/Tutorials/dev_env/Tutorials/CSS3/Class6-styles.css" />
+    </head>
+
+    <!-- Inline/attribute stylesheet   -->
+    <body>
+        <article>
+            <header id="main-heading">
+                <h1>This is a Basic Form!</h1>
+            </header>
+            <section id="main-section">
+                <article>
+                    <header id="nav-heading">
+                        <!-- Page Navigation -->
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="/home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/about">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="/contact">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="/imprint">Imprint</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <section>
+                        <form name="newLicenseForm">
+                            <div>
+                                <label for="firstName">Applicant's First Name:</label>
+                                <input type="text" id="firstName" name="fName" placeholder="Enter your First Name" />
+                            </div>
+                            <br />
+
+                            <div>
+                                <label for="lastName">Applicant's Last Name:</label>
+                                <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name" />
+                            </div>
+                            <br />
+
+                            <div>
+                                <label for="phoneNumber">Applicant's Phone Number:</label>
+                                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                            </div>
+                            <br />
+
+                            <div>
+                                <label for="gender">Applicant's Gender:</label>
+                                <div>
+                                    <label for="male">Male:</label>
+                                    <input type="radio" id="male" name="gender" value="male" />
+
+                                    <label for="female">Female:</label>
+                                    <input type="radio" id="female" name="gender" value="female"/>
+                                </div>
+                            </div>
+                            <br />
+
+                            <div>
+                                <label for="seniorCitizen">Is Applicant a Senior Citizen?</label>
+                                <input type="checkbox" id="seniorCitizen" name="seniorCitizen" />
+                            </div>
+                            <br />
+
+                            <button type="submit" id="submit">Submit</button>
+                            <button type="reset" id="reset">Reset</button>
+
+                        </form>
+                    </section>
+                    <footer></footer>
+                </article>
+            </section>
+            <footer></footer>
+        </article>
+    </body>
+</html>
